@@ -1,0 +1,593 @@
+Note 1:
+
+
+Note 2:
+Hello Students, my name is Joel and in this chapter, we will discuss the concept of  Ecological Correlation and Linear Regression
+
+Note 3:
+1
+
+Note 4:
+
+
+Note 5:
+This video is divided into two subtopics
+
+By the end of the first subtopic, [click] you will learn about 
+
+[click] Ecological Correlation
+
+[click] Ecological Fallacy
+
+[click]  Atomistic Fallacy and how it is related to what we understand from Correlation.
+
+By the end of the second subtopic, [click] you should be able to 
+
+[click] use linear regression to make predictions, 
+
+[click] understand the idea behind linear regression, and also 
+
+[click] how to apply linear regression for non-linear models. 
+
+
+Note 6:
+2
+
+Note 7:
+
+
+Note 8:
+We will now begin on subtopic 1 and introduce the concept of Ecological Correlation
+
+Note 9:
+3
+
+Note 10:
+
+
+Note 11:
+In this video, we'll explore the correlation coefficient derived from aggregated data, known as the Ecological correlation.
+
+[click] In our visualization, we have individuals selected from a population. 
+
+We can compute the correlation coefficient using all these individual data points. 
+
+However, we can also examine the aggregated data [click] by grouping individuals based on factors like country or ethnic group. 
+
+Ecological correlation is then calculated based on these aggregated groups.
+
+It's important to note that ecological correlation differs from individual-level correlation in that it employs group aggregates rather than individual units. 
+
+[click] The ecological correlation represents relationships observed at the aggregate level, considering the characteristics of groups rather than individuals.
+
+
+Note 12:
+4
+
+Note 13:
+
+
+Note 14:
+Let's examine this example. 
+
+[click] The data set consists of individuals belonging to three distinct groups, represented by the symbols circle, cross, and plus. 
+
+[click] When analysing the correlation at the individual level, we observe a moderate and positive linear association with a correlation coefficient of 0.85.
+
+If we shift our focus to the group averages, represented by the red circle, cross and plus [click], we can calculate the correlation based on these aggregated values. 
+
+[click]  Surprisingly, the three aggregate points align closely along a straight line, indicating a stronger correlation with a coefficient of 0.98.
+
+[click] Consequently, this data set demonstrates that the ecological correlation, derived from group averages, suggests a more pronounced linear association compared to the correlation calculated at the individual level.
+
+However, it is important to question whether this pattern holds universally and in all situations.
+
+
+Note 15:
+5
+
+Note 16:
+
+
+Note 17:
+Let's examine this example. 
+
+[click] The data set consists of individuals belonging to three distinct groups, represented by the symbols circle, cross, and plus. 
+
+[click] When analysing the correlation at the individual level, we observe a moderate and positive linear association with a correlation coefficient of 0.85.
+
+If we shift our focus to the group averages, represented by the red dots [click], we can calculate the correlation based on these aggregated values. 
+
+[click]  Surprisingly, the three aggregate points align closely along a straight line, indicating a stronger correlation with a coefficient of 0.98.
+
+[click] Consequently, this data set demonstrates that the ecological correlation, derived from group averages, suggests a more pronounced linear association compared to the correlation calculated at the individual level.
+
+However, it is important to question whether this pattern holds universally and in all situations.
+
+
+Note 18:
+6
+
+Note 19:
+
+
+Note 20:
+Let's examine this example. 
+
+[click] The data set consists of individuals belonging to three distinct groups, represented by the symbols circle, cross, and plus. 
+
+[click] When analysing the correlation at the individual level, we observe a moderate and positive linear association with a correlation coefficient of 0.85.
+
+If we shift our focus to the group averages, represented by the red circle, cross and plus [click], we can calculate the correlation based on these aggregated values. 
+
+[click]  Surprisingly, the three aggregate points align closely along a straight line, indicating a stronger correlation with a coefficient of 0.98.
+
+[click] Consequently, this data set demonstrates that the ecological correlation, derived from group averages, suggests a more pronounced linear association compared to the correlation calculated at the individual level.
+
+However, it is important to question whether this pattern holds universally and in all situations.
+
+
+Note 21:
+7
+
+Note 22:
+
+
+Note 23:
+Let's examine this example. 
+
+[click] The data set consists of individuals belonging to three distinct groups, represented by the symbols circle, cross, and plus. 
+
+[click] When analysing the correlation at the individual level, we observe a moderate and positive linear association with a correlation coefficient of 0.85.
+
+If we shift our focus to the group averages, represented by the red dots [click], we can calculate the correlation based on these aggregated values. 
+
+[click]  Surprisingly, the three aggregate points align closely along a straight line, indicating a stronger correlation with a coefficient of 0.98.
+
+[click] Consequently, this data set demonstrates that the ecological correlation, derived from group averages, suggests a more pronounced linear association compared to the correlation calculated at the individual level.
+
+However, it is important to question whether this pattern holds universally and in all situations.
+
+
+Note 24:
+8
+
+Note 25:
+
+
+Note 26:
+We will address this inquiry by employing graphical representations that elucidate the interrelationships between correlations at the individual level and 
+ecological correlations within specific contexts. [click]
+
+Examining this scatter diagram, we observe a [click]
+ discernible positive linear correlation among the data points. 
+
+[click]
+The strength of this correlation appears to range 
+from moderate to strong. 
+
+[click]
+However, it is evident that the data set can be divided into two distinct groups. 
+
+[click]
+By calculating the averages for each group and 
+assessing the correlation based on these group averages, 
+[click]
+ the strength of the linear association becomes more pronounced. 
+
+Consequently, if we draw conclusions regarding the linear association between the two variables solely based on ecological correlation, [click]
+ the strength of such association tends to be 
+exaggerated.
+
+[REMOVE]
+In general, when the associations for both individuals and aggregates align in the same direction, the ecological correlation, which is predicated on 
+aggregates, often amplifies the perceived strength of the association at the individual level. This arises due to the elimination of variability among individuals 
+when using group aggregates.
+
+[click]
+To summarize, when the associations for individuals and aggregates align in the same direction, the ecological correlation, relying on aggregates, typically 
+inflates the perceived strength of the association at the individual level. This stems from the removal of variability among individuals when employing group 
+aggregates.
+
+
+Note 27:
+9
+
+Note 28:
+
+
+Note 29:
+Let us examine this scatter diagram that represents the relationship between two variables. 
+
+Within the diagram, [click] we can 
+observe four distinct groups, each representing a different aggregate group. Interestingly, we notice a [click] 
+negative linear association between the two variables within each aggregate group.
+
+At first glance, one might infer that there is a negative linear association if we look at each aggregate group. 
+
+[click] 
+However, when we consider the average values 
+for each group, a contradictory finding emerges. 
+
+The correlation based on the averages reveals a strong, almost perfect, positive linear association. 
+
+[click] 
+This apparent contradiction serves as a valuable lesson. We should not assume that correlations observed at the aggregate level hold true for individuals. It is 
+crucial to recognize that ecological correlation and correlation based on individuals are not equivalent. One common pitfall is drawing conclusions about 
+individuals based on aggregated data, which is known as the [click] "ecological fallacy."
+
+
+
+
+Note 30:
+10
+
+Note 31:
+
+
+Note 32:
+Now we will discuss Ecological Fallacy using this example.
+
+Let us examine [click] this scatter diagram that represents the relationship between two variables. 
+
+Within the diagram, [click] we can 
+observe four distinct groups, each representing a different aggregate group. 
+
+When we consider the average values [click]  for each aggregate group, 
+the correlation based on these averages [click] reveals a positive linear association. 
+
+One might infer that there is also a positive linear association if we look within each aggregate group. 
+
+However, we notice a [click] 
+Weak negative linear association between the two variables within each aggregate group.
+
+[click] 
+This apparent contradiction serves as a valuable lesson. We should not assume that correlations observed at the aggregate level hold true for individuals. It is 
+crucial to recognize that ecological correlation and correlation based on individuals are not equivalent. 
+
+One common pitfall is drawing conclusions about 
+individuals based on aggregated data, which is known as the [click] "ecological fallacy."
+
+
+
+
+
+Note 33:
+11
+
+Note 34:
+
+
+Note 35:
+
+[click] Now we will discuss Atomistic Fallacy using this example.
+
+[click]
+The diagram clearly illustrates the presence of three distinct groups of individuals, 
+
+[click]
+and within each group, we observe a positive linear association between the two variables.
+
+However, we must carefully consider whether it is appropriate to extend the observed correlation among individuals to the aggregate level. 
+
+[click]
+When we plot the aggregates for each group, no clear correlation can be inferred from the diagram. Applying correlations based on individuals to the aggregates represents what is known as the "Atomistic Fallacy."
+
+[click]
+This example highlights the importance of recognising the limitations when generalising individual-level correlations to the aggregate level. While positive linear associations are evident within each group, this does not necessarily imply a similar correlation at the aggregate level. 
+
+
+Note 36:
+12
+
+Note 37:
+
+
+Note 38:
+We will now begin on subtopic 2 and introduce the concept of Linear Regression
+
+Note 39:
+13
+
+Note 40:
+
+
+Note 41:
+In this unit, we focus on how to predict the value of one variable based on another variable. 
+
+[click] We have previously seen the scatter plot. Based on the HDB data introduced before, can we make a prediction on the resale price based on its age? 
+
+[click] For instance, if the age of my HDB flat is 25 years, [click] can we make a guess on what is its resale price?
+
+
+Note 42:
+14
+
+Note 43:
+
+
+Note 44:
+In this course, we will only cover linear regression. 
+
+[click] We model the relationship between X and Y by a straight line. 
+
+[click] Let us recall that a straight line is given by the equation Y=mX+c. 
+
+[click] The constant c is the y-intercept, i.e., it is the value of y when x=0. 
+
+[click] The constant m refers to the gradient or the slope of the line. 
+
+[click] It can be interpreted as the amount of change in Y if we [click] increase X by 1 unit. 
+
+[click] If we plug in a number 𝑋_𝑖 to the formula Y=mX+c, the output will be the predicted value of Y for 𝑋_𝑖. 
+
+
+Note 45:
+15
+
+Note 46:
+
+
+Note 47:
+[click] Let us predict the HDB resale price based on its age. 
+
+[click]  The regression line for the HDB data is given by the [click]  equation stated in the slide. 
+
+For instance, [Click] if the age of the HDB resale flat is 40 years, then we predict the resale price is [click] 431 577 thousand SGD. 
+
+Note that the value of y obtained from the equation is an estimate, not the exact value. We are predicting the average resale price for a 40-year-old HDB flat. 
+[ click] The equation in the slide can only be used for predicting HDB resale price given its age. It CANNOT be used to predict the age of an HDB flat given its resale price. 
+
+Note 48:
+16
+
+Note 49:
+
+
+Note 50:
+In the first place, 
+
+[click] how do we determine the regression line for our data? 
+
+In practice, [click]  we use least square method to determine the regression line. How does the method work? 
+
+Note 51:
+17
+
+Note 52:
+
+
+Note 53:
+The idea is as follows: 
+
+[click] we define 𝑒_𝑖, [click] the error of the i-th observation, to be the 
+
+difference between the [click]  observed outcome and the [click] predicted outcome. You can refer to the diagram in the slide to help you visualize the definition better. Let us recall that given a point on the line, its Y value corresponds to the predicted outcome. Thus, as one can see from the figure, the error 𝑒_𝑖 is simply just the vertical distance between the data point and the regression line. The regression line is then obtained by minimising the sum of the squared errors i.e. the sum of 𝑒_𝑖^2. 
+
+[click] Note that the regression line goes through the point of averages (xbar,ybar) which is not a coincidence. Every simple linear regression line always goes through the point of averages for a data set.
+
+We can now explain why the equation for predicting HDB resale price based on its age cannot be used to predict age of an HDB based on its resale price. This is because the equation for predicting HDB resale price based on its age is obtained by minimising the sum of  squared errors for resale price, while the regression line for predicting age of an HDB based on its resale price is [click] obtained by minimising the sum of squared errors for age. 
+
+
+
+Note 54:
+18
+
+Note 55:
+
+
+Note 56:
+The idea is as follows: 
+
+[click] we define 𝑒_𝑖, [click] the error of the i-th observation, to be the 
+
+difference between the [click]  observed outcome and the [click] predicted outcome. You can refer to the diagram in the slide to help you visualize the definition better. Let us recall that given a point on the line, its Y value corresponds to the predicted outcome. Thus, as one can see from the figure, the error 𝑒_𝑖 is simply just the [click] vertical distance between the data point and [click] the regression line. The regression line is then obtained by minimising the sum of the squared errors i.e. the sum of 𝑒_𝑖^2. 
+
+[click] Note that the regression line goes through the point of averages (xbar,ybar) which is not a coincidence. Every simple linear regression line always goes through the point of averages for a data set.
+
+CUT OUT[We can now explain why the equation for predicting HDB resale price based on its age cannot be used to predict age of an HDB based on its resale price. This is because the equation for predicting HDB resale price based on its age is obtained by minimising the sum of  squared errors for resale price, while the regression line for predicting age of an HDB based on its resale price is [click] obtained by minimising the sum of squared errors for age. ]
+
+
+
+Note 57:
+19
+
+Note 58:
+
+
+Note 59:
+You may have wondered what is the relation between the slope of the regression line and the correlation coefficient. 
+
+The relation is given by the formula stated in the slide. [Click]
+
+As one can see from the equation [click], if the correlation coefficient is positive, then the gradient is also positive. Similarly, if the correlation is negative, then the gradient is also negative. 
+
+An important thing to remember also [click] is that the slope of the regression line is not necessarily equal to the correlation coefficient. 
+
+
+Note 60:
+20
+
+Note 61:
+
+
+Note 62:
+You may have wondered what is the relation between the slope of the regression line and the correlation coefficient. 
+
+The relation is given by the formula stated in the slide. [Click]
+
+As one can see from the equation [click], if the correlation coefficient is positive, then the gradient is also positive. Similarly, if the correlation is negative, then the gradient is also negative. 
+
+An important thing to remember also [click] is that the slope of the regression line is not necessarily equal to the correlation coefficient. 
+
+
+Note 63:
+21
+
+Note 64:
+
+
+Note 65:
+When predicting HDB resale price based on the age, we need to take note of the range of the HDB ages. 
+
+In this data set, [Click]  the range varies from 2-54 years. [Click] 
+
+Thus, the prediction is only applicable for HDB flats whose age is between 2-54 years. [Click] 
+
+Beyond this range, [Click] any prediction of HDB resale price will be dangerous, as the best fit regression line may change. 
+
+
+Note 66:
+22
+
+Note 67:
+
+
+Note 68:
+Sometimes, the relationship between two numerical variables is not linear. Applying linear regression directly to predict one variable from the other may not be such a good idea, even if the correlation coefficient is very close to 1. 
+
+Let’s consider the following example.
+
+[click] The data in the slide shows the total number of confirmed COVID19 cases in South Africa, since 5 March 2020. 
+
+The variable t [click]  represents the number of days since 5 March 2020. Let’s use Radiant to compute the correlation coefficient and produce the scatter plot.
+
+
+Note 69:
+23
+
+Note 70:
+
+
+Note 71:
+[click] The correlation coefficient between the total number of confirmed cases and t is 0.81, which indicates a strong positive linear association. 
+
+[click] However, if we look at the scatter plot and the regression line, it is quite clear visually that predicting total cases using a linear model is not a good idea. 
+
+[click] The scatter plot seems to suggest that the total confirmed cases depends on t exponentially. 
+
+Fortunately, we can still apply our linear regression technique to predict the total cases, although indirectly. 
+
+
+Note 72:
+24
+
+Note 73:
+
+
+Note 74:
+Since the total number of cases seems to depend exponentially on t, 
+
+[click] we can model the relationship using an exponential curve of the form y=cb^t  for some constants b and c, 
+
+[click] where y is the total number of confirmed cases. 
+
+[click] Our goal is to find out what b and c are. 
+
+[click] First, we apply natural logarithm to both sides of the equation
+
+[click] we plot the ln of total number of cases vs t. You may refer to the table shown in the slide for the values of ln y. 
+
+
+Note 75:
+25
+
+Note 76:
+
+
+Note 77:
+[click] Using Radiant, 
+
+[click] the scatter plot of log y vs time t together with its 
+
+[click] regression line is shown in the slide. 
+
+
+Note 78:
+26
+
+Note 79:
+
+
+Note 80:
+So how do we find the constants c and b? 
+
+[click] By applying natural logarithm ln to the equation y=cb^t, 
+
+[click] we get ln y= ln c+t ln b. 
+
+[click] By comparing this to the linear equation Y=mX+k, 
+
+[click] we deduce that m=ln b and k=ln c. 
+
+We can now use software to compute the constants m and k.
+
+ [click] Once we obtain the values of m and k, the constant b=e^m and c=e^k.
+
+[click] A summary can be seen in the table shown.
+
+
+Note 81:
+27
+
+Note 82:
+
+
+Note 83:
+Let’s apply the technique discussed in the previous slide. 
+
+[click] Using Radiant or Excel, we find the regression line for ln y versus time(t)
+
+[click] we find ln y=0.066t+4.287. 
+
+[click] In the last step, we need to express y in terms of t. 
+
+[click] Thus, through algebraic manipulation we find y=e^(4.287+0.066t). 
+
+
+Note 84:
+28
+
+Note 85:
+
+
+Note 86:
+In this real-world example of Urban Population versus GDP Per capita [click]
+
+When Urban Population is plotted against GDP per capita linearly [click], there is an obvious non-linear relationship [click]
+
+Note 87:
+29
+
+Note 88:
+
+
+Note 89:
+[click] When we plot the Urban Population, against the log of the x-variable [click] , GDP, we get a straight line [click]
+
+Note 90:
+30
+
+Note 91:
+
+
+Note 92:
+To provide a formal and concise recap, we have covered the following key points during our video:
+
+[click] In subtopic 1 we learnt about 
+[click] Ecological correlation.
+[click] highlighted the differences between ecological correlation and correlation at the individual level.
+[click] How Ecological fallacy emphasizes that drawing conclusions about individuals based solely on aggregated data is not appropriate. 
+And how atomistic fallacy demonstrates that correlations observed among individuals may not necessarily hold true for aggregated data. 
+---
+[click] In subtopic 2 we have
+[click] Learnt how to model using linear regression
+[click] And why the best fit line is derived using least squares approximation
+[click] We have also learnt how to apply regression on non-linear models
+
+Thank you.
+
+
+Note 93:
+31
+
